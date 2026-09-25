@@ -48,7 +48,7 @@ A machine learning-driven underwriting scorecard that evaluates private and midd
 2. Create and activate a virtual environment
 python -m venv .venv
 source .venv/Scripts/activate  # Windows
-# source .venv/bin/activate    # Mac/Linux
+source .venv/bin/activate    # Mac/Linux
 
 3. Install dependencies
 pip install yfinance numpy scipy pandas scikit-learn
